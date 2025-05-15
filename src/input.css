@@ -1,0 +1,34 @@
+@import url("https://fonts.google.com/specimen/Outfit");
+@import url("https://fonts.google.com/specimen/Young+Serif");
+@import "tailwindcss";
+
+/* @font-face {
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 400 600 700;
+    src: url("https://fonts.google.com/specimen/Young+Serif");
+} */
+
+@theme {
+    /* // Viewport */
+    /* --breakpoint-mobile: 47rem;
+    --breakpoint-desktop: 180rem; */
+    
+    /* // Colors */
+    --color-stone100: hsl(30, 54%, 90%);
+    --color-stone150: hsl(30, 18%, 87%);
+    --color-stone600: hsl(30, 10%, 34%);
+    --color-stone900: hsl(24, 5%, 18%);
+
+    --color-Brown800: hsl(14, 45%, 36%);
+    
+    --color-Rose800: hsl(332, 51%, 32%);
+    --color-Rose50: hsl(330, 100%, 98%);
+
+    /* // texts */
+    --font-outfit: "Outfit"; 
+    --font-youngSerif: "Young Serif"; 
+
+    /* --font-display: "Outfit";  */
+    /* --font-display:"Young Serif"; */
+}
