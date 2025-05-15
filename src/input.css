@@ -1,5 +1,5 @@
-@import url("https://fonts.google.com/specimen/Outfit");
-@import url("https://fonts.google.com/specimen/Young+Serif");
+@import url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+@import url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
 @import "tailwindcss";
 
 /* @font-face {

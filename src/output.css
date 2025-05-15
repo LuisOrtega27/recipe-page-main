@@ -1,6 +1,6 @@
 /*! tailwindcss v4.1.3 | MIT License | https://tailwindcss.com */
-@import url("https://fonts.google.com/specimen/Outfit");
-@import url("https://fonts.google.com/specimen/Young+Serif");
+@import url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+@import url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
 @layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
