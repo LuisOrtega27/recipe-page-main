@@ -220,9 +220,6 @@
   .w-full {
     width: 100%;
   }
-  .table-auto {
-    table-layout: auto;
-  }
   .table-fixed {
     table-layout: fixed;
   }
@@ -237,12 +234,6 @@
   }
   .list-disc {
     list-style-type: disc;
-  }
-  .rounded-lg {
-    border-radius: var(--radius-lg);
-  }
-  .rounded-md {
-    border-radius: var(--radius-md);
   }
   .rounded-xl {
     border-radius: var(--radius-xl);
@@ -262,27 +253,6 @@
     border-bottom-color: color-mix(in srgb, #000 10%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       border-bottom-color: color-mix(in oklab, var(--color-black) 10%, transparent);
-    }
-  }
-  .bg-Brown800 {
-    background-color: var(--color-Brown800);
-  }
-  .bg-Brown800\/5 {
-    background-color: color-mix(in srgb, hsl(14, 45%, 36%) 5%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      background-color: color-mix(in oklab, var(--color-Brown800) 5%, transparent);
-    }
-  }
-  .bg-Brown800\/10 {
-    background-color: color-mix(in srgb, hsl(14, 45%, 36%) 10%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      background-color: color-mix(in oklab, var(--color-Brown800) 10%, transparent);
-    }
-  }
-  .bg-Brown800\/20 {
-    background-color: color-mix(in srgb, hsl(14, 45%, 36%) 20%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      background-color: color-mix(in oklab, var(--color-Brown800) 20%, transparent);
     }
   }
   .bg-\[\#222f3e\] {
@@ -321,9 +291,6 @@
   .text-center {
     text-align: center;
   }
-  .font-\[arial\] {
-    font-family: arial;
-  }
   .font-outfit {
     font-family: var(--font-outfit);
   }
@@ -351,9 +318,6 @@
   .text-\[rgb\(107\,175\,242\)\] {
     color: rgb(107,175,242);
   }
-  .text-red-600 {
-    color: var(--color-red-600);
-  }
   .text-stone-500 {
     color: var(--color-stone-500);
   }
@@ -370,16 +334,6 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
-  .sm\:text-red-600 {
-    @media (width >= 40rem) {
-      color: var(--color-red-600);
-    }
-  }
-  .md\:my-20 {
-    @media (width >= 48rem) {
-      margin-block: calc(var(--spacing) * 20);
-    }
-  }
   .md\:my-30 {
     @media (width >= 48rem) {
       margin-block: calc(var(--spacing) * 30);
@@ -388,11 +342,6 @@
   .md\:max-w-1\/2 {
     @media (width >= 48rem) {
       max-width: calc(1/2 * 100%);
-    }
-  }
-  .md\:max-w-2\/3 {
-    @media (width >= 48rem) {
-      max-width: calc(2/3 * 100%);
     }
   }
   .md\:rounded-2xl {
@@ -413,9 +362,12 @@
       }
     }
   }
-  .md\:bg-white {
+  .md\:bg-Brown800\/90 {
     @media (width >= 48rem) {
-      background-color: var(--color-white);
+      background-color: color-mix(in srgb, hsl(14, 45%, 36%) 90%, transparent);
+      @supports (color: color-mix(in lab, red, red)) {
+        background-color: color-mix(in oklab, var(--color-Brown800) 90%, transparent);
+      }
     }
   }
   .md\:p-10 {
@@ -426,11 +378,6 @@
   .md\:pb-2 {
     @media (width >= 48rem) {
       padding-bottom: calc(var(--spacing) * 2);
-    }
-  }
-  .lg\:text-red-100 {
-    @media (width >= 64rem) {
-      color: var(--color-red-100);
     }
   }
 }
